@@ -77,13 +77,14 @@ button {
     display: flex;
 }
 
-.navbar__link,
-.header-action__link {
+.header-action__link,
+.navbar__link {
     padding: 8px 18px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1;
     color: #5e6085;
+    transition: all 0.25s;
 }
 
 .navbar__link:hover {
