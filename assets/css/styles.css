@@ -939,6 +939,7 @@ button {
     padding: 30px 28px;
     border-radius: 20px;
     background: #ffffff;
+    box-shadow: 0px 20px 44px 0px #c36c160f;
 }
 
 .pricing-item__type {
@@ -998,4 +999,50 @@ button {
 .pricing-item__item::before {
     content: url(../img/pricing-check.svg);
     margin-right: 14px;
+}
+
+/* Review */
+.review {
+    padding: 53px 0;
+}
+
+.review__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 44px;
+}
+
+.review__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1.5px solid #ffd1c4;
+    background: transparent;
+    color: #ff5b2e;
+    transition: 0.45s;
+}
+
+.review__control:hover {
+    background: #ff5b2e;
+    color: #fff;
+    cursor: pointer;
+    border-color: #ff5b2e;
+}
+
+.review-item {
+    display: flex;
+    align-items: center;
+}
+
+.review-item__media {
+    flex-shrink: 0;
+    width: 274px;
+}
+
+.review-item__img {
+    width: 100%;
 }
